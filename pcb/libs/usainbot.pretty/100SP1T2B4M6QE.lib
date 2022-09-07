@@ -1,0 +1,26 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#(c) SnapEDA 2016 (snapeda.com)
+#This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA) with Design Exception 1.0
+#
+# 100SP1T2B4M6QE
+#
+DEF 100SP1T2B4M6QE SW 0 40 N N 1 L N
+F0 "SW" 0 0 50 H I L BNN
+F1 "100SP1T2B4M6QE" 0 0 50 H I L BNN
+F2 "TOGGLE_RA" 0 0 50 H I L BNN
+F3 "" 0 0 50 H I L BNN
+F4 "SPDT" 0 0 50 H I L BNN "VALUE"
+F5 "EG2362-ND" 0 0 50 H I L BNN "PARTNO"
+DRAW
+C 0 200 35 0 0 10 N
+C 300 400 35 0 0 10 N
+C 300 0 35 0 0 10 N
+P 2 0 0 10 0 200 325 125 N
+X ~ 2 -200 200 200 R 40 40 0 0 B 
+X ~ 1 500 400 200 L 40 40 0 0 B 
+X ~ 3 500 0 200 L 40 40 0 0 B 
+ENDDRAW
+ENDDEF
+#
+# End Library
