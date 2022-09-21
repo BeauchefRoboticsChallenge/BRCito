@@ -32,8 +32,6 @@ El robot sigue líneas es controlador por un Arduino Nano. Las conexiones del Ar
 
 
 #### Pinout electrónico
-
-
 | Pin Arduino     | Descripción     | Componente | Pin componente
 | :------------- | :------------- | :-------      | :-----  |
 | A2       | Sensor Frontal 1      | Arreglo sensores QTR-8A | 6
@@ -53,7 +51,21 @@ El robot sigue líneas es controlador por un Arduino Nano. Las conexiones del Ar
 | 9       | Leds RGB      | Led RGB | din led
 | 7       | Pulsador      | Pulsador | pin pulsador
 
-#### Librerías
+### Librerías de Kicad
+
+En la carpeta [pcb/libs/](pcb/libs/) se encuentran las librerías de símbolos y footprints diseñados para los componentes que no existen en las librerías estandar de KiCad.
+
+**Librería de símbolos**
+* TB6612FNG_breakout
+
+**Librería de footprints**
+* QTR-8
+* SPST Slide Switch (interruptor)
+* TB6612FNG Breakout
+
+
+
+## Librerías de Arduino
 
 Para comunicarse con los leds WS2812b se puede utilizar la librería [Adafruit Neopixel](https://github.com/adafruit/Adafruit_NeoPixel).
 
